@@ -30,6 +30,8 @@ public class Ebay_Home_Steps {
 	public void search_for(String str1) throws Exception {
 	   driver.findElement(By.xpath("//input[@id='gh-ac']")).sendKeys(str1);
 	   driver.findElement(By.xpath("//input[@id='gh-btn']")).click();
+	   System.out.println("anu1");
+	   System.out.println("anu2");
 	   Thread.sleep(2000);
 	}
 
