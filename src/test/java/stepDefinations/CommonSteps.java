@@ -26,6 +26,7 @@ public class CommonSteps {
 	@Before("@setCookies")
 	public void setCookies() {
 		System.out.println("Scenario specific hook - setCookies executed");
+		System.out.println("Global after got executed");
 	}
 	
 	public WebDriver getDriver() {
